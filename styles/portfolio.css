@@ -1,4 +1,47 @@
-body {
-  background-color: red;
-  font-family: Roboto;
+:root {
+  --branding-color: #f1003a;
+  --heading-font-family: "Roboto", sans-serif;
+  --primary-color: white;
+  --secondary-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  opacity: 80%;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 3;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 12px 20px;
 }
