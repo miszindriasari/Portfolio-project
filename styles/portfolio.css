@@ -79,6 +79,50 @@ h6 {
 .project-image {
   text-align: center;
 }
+
+.skills-container {
+  text-align: center;
+  padding: 60px 60px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.about-section {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  opacity: 80%;
+  text-align: center;
+  padding: 160px 20px;
+  font-weight: bold;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.about-section p {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+}
+
+.img-fluid-icons {
+  margin: 10px 10px 10px;
+  padding: 5px 5px;
+  text-align: center;
+}
+.btn-project-1 {
+  background: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 20px 15px;
+  margin: 70px 70px;
+  font-size: 15px;
+}
+
 @media (max-width: 900px) {
   .hero {
     line-height: 1.5px;
@@ -99,13 +143,16 @@ h6 {
   }
 
   .hero h1,
-  h1 {
+  h1,
+  .about-section h1 {
     font-size: 30px;
   }
-  .hero h2 {
+  .hero h2,
+  .about-section p {
     font-size: 15px;
   }
-  .btn-branding {
+  .btn-branding,
+  .btn-project-1 {
     border-radius: 4px;
     font-size: 18px;
     line-height: 20px;
@@ -116,46 +163,8 @@ h6 {
   .project-image {
     width: 10px;
   }
-}
 
-.img-fluid-icons {
-  margin: 10px 10px 10px;
-  padding: 5px 5px;
-  text-align: center;
-}
-
-.about-section {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  opacity: 80%;
-  text-align: center;
-  padding: 120px 20px;
-}
-
-.about-me p {
-  text-align: center;
-  font-size: 15px;
-  padding: 30px;
-}
-
-.skills {
-  text-align: center;
-  padding: 60px 60px;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-.btn-about {
-  text-align: center;
-}
-
-.btn-project-1 {
-  background: var(--branding-color);
-  color: white;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 20px;
-  padding: 20px 15px;
-  margin: 70px 70px;
-  font-size: 15px;
+  .img-fluid-icons {
+    width: 50px;
+  }
 }
