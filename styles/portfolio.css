@@ -23,7 +23,7 @@ h2 {
   color: var(--primary-color);
   opacity: 80%;
   text-align: center;
-  padding: 160px 20px;
+  padding: 200px 20px;
   font-weight: bold;
 }
 
@@ -76,6 +76,57 @@ h2 {
   font-size: 15px;
 }
 
+.skills-container {
+  text-align: center;
+  padding: 60px 60px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.about-section {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  opacity: 80%;
+  text-align: center;
+  padding: 200px 20px;
+  font-weight: bold;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  padding: 30px;
+}
+
+.about-section p {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+}
+
+.headshot {
+  opacity: 100%;
+  border-radius: 4px;
+}
+.img-fluid-icons {
+  margin: 10px 10px 10px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.btn-project-1 {
+  background: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 20px 15px;
+  margin: 70px 70px;
+  font-size: 15px;
+}
+
 @media (max-width: 900px) {
   .hero {
     line-height: 1.5px;
@@ -100,6 +151,9 @@ h2 {
   .hero h2 {
     font-size: 15px;
   }
+  .text-center h2 {
+    font-size: 20px;
+  }
   .btn-branding {
     border-radius: 4px;
     line-height: 20px;
@@ -111,5 +165,30 @@ h2 {
   .images-project {
     text-align: center;
     width: auto;
+  }
+  .about-section {
+    padding: 50px;
+    font-size: 10px;
+  }
+
+  .about-section h1 {
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  .about-section p {
+    font-size: 10px;
+    text-align: start;
+  }
+
+  .img-fluid-icons {
+    margin: 10px 10px 10px;
+    padding: 5px 5px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .skills-container h2 {
+    font-size: 20px;
   }
 }
