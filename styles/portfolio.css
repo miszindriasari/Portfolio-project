@@ -127,6 +127,39 @@ h2 {
   font-size: 15px;
 }
 
+.navigation {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+h4 {
+  font-size: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li .active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     line-height: 1.5px;
@@ -188,5 +221,9 @@ h2 {
 
   .content h2 {
     font-size: 20px;
+  }
+
+  h4 {
+    font-size: 10px;
   }
 }
